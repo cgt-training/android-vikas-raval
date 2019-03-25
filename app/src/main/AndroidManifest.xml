@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vikas.myproject1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UserLoginRegistration.Registration" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UserLoginRegistration.Log" />
+        </activity>
+        <activity android:name=".UserLoginRegistration.Log">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".AdminLogin.AdminLogin" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+
+
+        <activity
+            android:name=".Admin_Nevigation.Admin_Nevigation"
+            android:label="@string/title_activity_admin__nevigation"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity android:name=".Category_Page.Category">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Admin_Nevigation.Admin_Nevigation" />
+        </activity>
+        <activity android:name=".Add_Item_Page.Add_Item">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Admin_Nevigation.Admin_Nevigation" />
+        </activity>
+        <activity android:name=".Admin_Nevigation.Quantity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Admin_Nevigation.Admin_Nevigation" />
+        </activity>
+        <activity android:name=".View_Order_Page.View_Order">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Admin_Nevigation.Admin_Nevigation" />
+        </activity>
+        <activity android:name=".Admin_Nevigation.View_Payment">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Admin_Nevigation.Admin_Nevigation" />
+        </activity>
+        <activity android:name=".Report_Page.Reports">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Admin_Nevigation.Admin_Nevigation" />
+        </activity>
+        <activity android:name=".Admin_Nevigation.Change_Password">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Admin_Nevigation.Admin_Nevigation" />
+        </activity>
+        <activity android:name=".Admin_Nevigation.User_Details">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Admin_Nevigation.Admin_Nevigation" />
+        </activity>
+
+        <activity android:name=".Item_Details.Item_Detail"/>
+        <activity android:name=".Payment_Order"/>
+
+
+        <activity
+            android:name=".User_Navigation.User_Navigation"
+            android:label="@string/title_activity_user__navigation"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity android:name=".User_Navigation.My_Home_Page">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".User_Navigation.User_Navigation" />
+        </activity>
+        <activity android:name=".User_Navigation.My_Account_Page">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".User_Navigation.User_Navigation" />
+        </activity>
+        <activity android:name=".User_Navigation.My_Change_Password">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".User_Navigation.User_Navigation" />
+        </activity>
+        <activity android:name=".User_Navigation.My_Thank_You_Page">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".User_Navigation.User_Navigation" />
+        </activity>
+        <activity android:name=".User_Navigation.My_Payment_Page">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".User_Navigation.User_Navigation" />
+        </activity>
+        <activity android:name=".User_Navigation.My_Order_Page">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".User_Navigation.User_Navigation" />
+        </activity>
+    </application>
+
+</manifest>

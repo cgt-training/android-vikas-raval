@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/log">
+
+    <TextView
+        android:id="@+id/s_u"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:text="Select User"
+        android:layout_marginLeft="100dp" />
+    <Spinner
+        android:id="@+id/s_u1"
+        android:singleLine="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:ems="10"/>
+    <!--<TextView-->
+        <!--android:id="@+id/o_s"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:textColor="@color/black"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Order Status"-->
+        <!--android:layout_marginLeft="100dp" />-->
+    <!--<Spinner-->
+        <!--android:id="@+id/o_s1"-->
+        <!--android:singleLine="true"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="100dp"-->
+        <!--android:textColor="@color/black"-->
+        <!--android:ems="10"/>-->
+    <Button
+        android:id="@+id/order_status"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginLeft="100dp"
+        android:text="View" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="19dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginRight="25dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text="Image"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginRight="25dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text="Item Name"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:layout_marginRight="40dp"
+            android:text="Price"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginRight="25dp"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:text="QTY"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:text="Size"/>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/ol"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

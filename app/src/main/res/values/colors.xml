@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBackground">#333C46</color>
+    <color name="colorSplashText">#F0F0F0</color>
+    <color name="colorProgressBar">#FFCE511C</color>
+    <color name="colorTextView">#303F9F</color>
+
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="signupColor">#066e8a</color>
+    <color name="a">#48C9B0</color>
+    <color name="back"> #ABEBC6</color>
+    <color name="green">    #951E8449</color>
+    <color name="red">    #958B0000</color>
+    <color name="gray">   #55000000</color>
+    <color name="tblack">#95000000</color>
+
+
+
+</resources>

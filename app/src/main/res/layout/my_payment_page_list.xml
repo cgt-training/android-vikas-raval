@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:textSize="15dp"
+            android:text="price"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="15dp"
+            android:text="Bank "
+            android:layout_marginRight="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="15dp"
+            android:text="Branch"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginRight="10dp"
+
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="15dp"
+            android:text="Card No."
+            android:layout_marginRight="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="15dp"
+            android:text="CVV No."
+            android:layout_marginRight="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Pay Type"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+<TextView
+    android:id="@+id/total_pric"
+    android:textSize="15dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/bank_name"
+        android:layout_width="wrap_content"
+        android:textSize="15dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/branch"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/card_no"
+        android:layout_width="wrap_content"
+        android:textSize="15dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/cvv_no"
+        android:layout_width="wrap_content"
+        android:textSize="15dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/payment_type"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+</LinearLayout>

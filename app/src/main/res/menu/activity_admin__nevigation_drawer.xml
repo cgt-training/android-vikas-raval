@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/category"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Add Category"
+            />
+        <item
+            android:id="@+id/item123"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Add Item" />
+        <item
+            android:id="@+id/quantity"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Add Quantity" />
+        <item
+            android:id="@+id/order"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="View Order" />
+        <item
+            android:id="@+id/report"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Reports" />
+        <item
+            android:id="@+id/cha_pass"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Change Password" />
+        <item
+            android:id="@+id/us1"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title=" View User Detaile" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Log Out" />
+    </group>
+
+
+</menu>

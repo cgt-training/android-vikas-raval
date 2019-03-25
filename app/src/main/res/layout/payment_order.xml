@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="113dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="82dp"
+            android:layout_height="32dp"
+            android:text="Total Price" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="83dp"
+            android:layout_height="32dp"
+            android:text="Payment Type" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="82dp"
+            android:layout_height="32dp"
+            android:text="Bank Name" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="83dp"
+            android:layout_height="33dp"
+            android:text="Branch" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="82dp"
+            android:layout_height="33dp"
+            android:text="16 Digit Card No." />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="82dp"
+            android:layout_height="33dp"
+            android:text="VCC No." />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/e_p"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="price" />
+
+        <EditText
+            android:id="@+id/e_pay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Credit Card" />
+
+        <Spinner
+            android:id="@+id/spin1"
+            android:entries="@array/bank"
+            android:prompt="@string/bankname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/spin2"
+            android:entries="@array/branch"
+            android:prompt="@string/branchname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/cardno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Number" />
+
+        <EditText
+            android:id="@+id/cvv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Number" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="pay" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shopping Now" />
+
+    </LinearLayout>
+</LinearLayout>

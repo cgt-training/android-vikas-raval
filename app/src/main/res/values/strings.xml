@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">pro1</string>
+    <string name="skip" />
+    <string name="login" />
+    <string name="forget_password" />
+    <string name="sign_up" />
+    <string name="password" />
+    <string name="email" />
+    <string name="read_it_together" />
+    <string name="welcome_back" />
+    <string name="booki" />
+    <string name="title_activity_admin__nevigation">Admin_Nevigation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="size" />
+    <string name="category" />
+    <string name="title_activity_user__navigation">User_Navigation</string>
+    <string name="bankname" />
+    <string name="branchname" />
+</resources>
